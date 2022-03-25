@@ -61,6 +61,17 @@ namespace BasicBodyMassIndexCalculator
                 return;
             }
 
+            // Gerçekci değerler dışında bir kilo girilmesine karşın onaylama mekanizması ekledim. Kullanıcı değerini onaylarsa yine de program çalışmaya devam edicek.
+            if (Convert.ToInt32(personWeight) > 600)
+            {
+                Console.WriteLine("Kilonuz realistik değerler dışında. Doğru giriş yaptınığınıza emin misiniz? (e/H)");
+                if (! Console.ReadLine().Equals("e"))
+                {
+                    Console.WriteLine("Vücut kitle endeksi hesaplama iptal edildi. Teşekkür ederiz.");
+                    return;
+                }
+            }
+
             // personWeight değişkeninde bahsettiğim nedenlerden olayı yine String olarak tercih etmek istedim.
             Console.Write("Lütfen boyunuzu metre cinsinden giriniz:");
             string personLength = Convert.ToString(Console.ReadLine());
@@ -106,12 +117,12 @@ namespace BasicBodyMassIndexCalculator
                 Console.WriteLine($"Sayın {person.Name} kilonuz normal");
             } else if (10 <= personMassIndex)
             {
-                Console.WriteLine($"Sayın {person.Name} kilonuz referans değerlerinin altında, kilo almalısınız.");
+                Console.WriteLine($"Sayın {person.Name} kilonuz referans değerlerinin üstünde, kilo vermelisiniz.");
             } else
             {
-                Console.WriteLine($"Sayın {person.Name} kilonuz referans değerlerin üstünde, kilo vermelisiniz.");
+                Console.WriteLine($"Sayın {person.Name} kilonuz referans değerlerin altında, kilo almalısınız.");
             }
-
+            return;
         }
 
         // Komut satırı üzerinden girilen değerleri doğrulamada oluşan hata mesajları için tek tek Console.WriteLine yazmak istemedim bunun yerine
