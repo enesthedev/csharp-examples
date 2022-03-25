@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{0C5ACE2C-C1AC-4D50-BD71-55B5210C2ED5}</ProjectGuid>
+    <ProjectGuid>{1B41F7AB-D0F6-471B-AE07-50543FD558D1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>basicbodymassindexcalculator</RootNamespace>
-    <AssemblyName>basic-body-mass-index-calculator</AssemblyName>
+    <RootNamespace>BasicBodyMassIndexCalculator</RootNamespace>
+    <AssemblyName>BasicBodyMassIndexCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">

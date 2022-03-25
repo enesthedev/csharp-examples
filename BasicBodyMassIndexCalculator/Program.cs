@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace basicbodymassindexcalculator
+namespace BasicBodyMassIndexCalculator
 {
     class MainClass
     {
