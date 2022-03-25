@@ -54,13 +54,13 @@ namespace BasicBodyMassIndexCalculator
 
             if (-10 <= personMassIndex && personMassIndex <= 10)
             {
-                Console.WriteLine("Kilonuz normal");
+                Console.WriteLine($"Sayın {person.Name} kilonuz normal");
             } else if (10 <= personMassIndex)
             {
-                Console.WriteLine("Kilonuz referans değerlerinin altında, kilo almalısınız.");
+                Console.WriteLine($"Sayın {person.Name} kilonuz referans değerlerinin altında, kilo almalısınız.");
             } else
             {
-                Console.WriteLine("Kilonuz referans değerlerin üstünde, kilo vermelisiniz.");
+                Console.WriteLine($"Sayın {person.Name} kilonuz referans değerlerin üstünde, kilo vermelisiniz.");
             }
 
         }
