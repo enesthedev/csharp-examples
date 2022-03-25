@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace bpr1210943contents
+namespace basicbodymassindexcalculator
 {
     class MainClass
     {

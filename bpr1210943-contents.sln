@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.20
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bpr1210943-contents", "bpr1210943-contents\bpr1210943-contents.csproj", "{B93F3CCA-F1AB-4FE2-93BC-06E5C5A33772}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic-body-mass-index-calculator", "basic-body-mass-index-calculator\basic-body-mass-index-calculator.csproj", "{0C5ACE2C-C1AC-4D50-BD71-55B5210C2ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B93F3CCA-F1AB-4FE2-93BC-06E5C5A33772}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{B93F3CCA-F1AB-4FE2-93BC-06E5C5A33772}.Debug|anycpu.Build.0 = Debug|anycpu
-		{B93F3CCA-F1AB-4FE2-93BC-06E5C5A33772}.Release|anycpu.ActiveCfg = Release|anycpu
-		{B93F3CCA-F1AB-4FE2-93BC-06E5C5A33772}.Release|anycpu.Build.0 = Release|anycpu
+		{0C5ACE2C-C1AC-4D50-BD71-55B5210C2ED5}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{0C5ACE2C-C1AC-4D50-BD71-55B5210C2ED5}.Debug|anycpu.Build.0 = Debug|anycpu
+		{0C5ACE2C-C1AC-4D50-BD71-55B5210C2ED5}.Release|anycpu.ActiveCfg = Release|anycpu
+		{0C5ACE2C-C1AC-4D50-BD71-55B5210C2ED5}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
