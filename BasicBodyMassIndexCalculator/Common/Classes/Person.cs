@@ -25,5 +25,20 @@ namespace BasicBodyMassIndexCalculator.Common.Classes
             get { return _length; }
             set { _length = value; }
         }
+
+        public Person(string name, int weight, double length)
+        {
+            Name = name ?? throw new ArgumentNullException(nameof(name));
+            Weight = weight;
+            Length = length;
+        }
+
+        public int CalculateMassIndex()
+        {
+            return this.Weight - (
+                Convert.ToInt32(this.Length) - 100
+            );
+        }
+
     }
 }
