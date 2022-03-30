@@ -48,9 +48,9 @@ namespace BasicBodyMassIndexCalculator.Common.Classes
 
         public int CalculateMassIndex()
         {
-            return this.Weight - (
+            return (
                 Convert.ToInt32(this.Length) - 100
-            );
+            ) - this.Weight;
         }
 
     }
